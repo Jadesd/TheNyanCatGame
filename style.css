@@ -1,0 +1,122 @@
+#game {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url("img/nyancatback.gif");
+  background-size: cover;
+  overflow: hidden;
+}
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100px;
+
+  background: url("img/ground.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+#player {
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
+
+  width: 100px;
+  height: 40px;
+
+  background: url("img/nyancat.gif");
+  background-size: contain;
+
+
+
+  transition: 2s;
+  transition-timing-function: ease-in;
+}
+
+.eagle {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 80px;
+  height: 60px;
+
+  background: url("img/bad\ nyan.gif");
+  background-size: cover;
+}
+
+#gameover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.767);
+  font-family: 'Press Start 2P' ;
+
+  display: none;
+}
+
+a {
+  background: rgb(140, 0, 255);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: xx-large;
+  text-align: center;
+}
+
+a:hover {
+  background: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(140, 0, 255);
+  display: inline-block;
+}
+
+body {
+  margin : 0px;
+  margin-bottom: 0px;
+}
+
+#startmenu {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.767);
+  font-family: 'Press Start 2P' ;
+
+}
+
+h6 {
+  margin: 50px;
+}
+
+p{
+  margin: 50px;
+}
